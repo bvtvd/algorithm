@@ -116,6 +116,7 @@ class ItemState
 
 /**
  * 过河动作数学模型
+ * 通过对10种动作抽象的一致性处理, 可以避免出现长长的 if...else 语句或 switch...case 语句
  */
 
 $actEffects = [
